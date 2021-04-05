@@ -15,15 +15,16 @@
 - Additive operations are basic operations, so they are applied to various algorithms such as image/voice processing, communication, and diphrers that require them
 
 ## Results
-### Fp.cpp
-accutrate floating point adder with C++ based on IEEE 754
-### FP_ETA1, FP_LOA
-ETA1, LOA with FP.cpp
-### AX_adder.cpp
-our main goal. we make revising 'normalize'
 #### 1. Design Low-power Approximate Floating Point Adder
 We make accutrate floating point adder with C++ based on IEEE 754. As a result of 5 million tests, the accuracy is 100%.
 Then we applied it to LOA and ETA1. And based on these activities and other related studies, we designed low-power approximate floating point adder.
+##### Fp.cpp
+accutrate floating point adder with C++ based on IEEE 754
 
 #### 2. Design Approximate Adder with increased accuracy
+##### FP_ETA1, FP_LOA
+ETA1, LOA with FP.cpp
+##### AX_adder.cpp
+our main goal. we make revising 'normalize'
+
 #### 3. Evaluation
